@@ -18,21 +18,20 @@ const Example = (props) => {
       <div className= "container py-5"> 
             <div className= "row">
                 <div className= "col-10 mx-auto text-center text-blue my-5">
-                    <h1>The Shack Podcast</h1>
+                    <h1>The Art of War Podcast</h1>
                 </div>
             </div>
             <div className= "row">
                 <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
-                    <img src= "img/TS.jpg" className= "img-fluid" alt= "The Shack" />
+                    <img src= "img/AofW.jpg" className= "img-fluid" alt= "Art of War" />
                 </div>
                 <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
 
-                    <h2>Presented By: William P. Young</h2>
+                    <h2>Presented By: Sun Tzu</h2>
                     <h5 className= "text-title mt-3 mb-2">
-                    Young attended bible college, and later received a BA in Religion from Warner Pacific College in Portland, Oregon. 
-                    Young married Kim Warren and held a number of jobs in early adulthood including working for a church and owning 
-                    businesses in insurance, construction, and more. The couple had six children, and Christianity played a large role 
-                    in the family. Young wrote The Shack, his first novel, as a gift for his children.
+                    Sun Tzu was a Chinese general, military strategist, writer and philosopher who lived in the Eastern Zhou 
+                    period of ancient China. Sun Tzu is traditionally credited as the author of The Art of War, an influential 
+                    work of military strategy that has affected both Western and East Asian philosophy and military thinking
                     </h5>
                 </div>
             </div>
@@ -123,7 +122,7 @@ const Example = (props) => {
                   <Col sm="6">
                     <Card body>
                       <CardTitle> <strong>Episode 1</strong> </CardTitle>
-                      <CardText>Meet William P. Young, as he goes into depth about his life and inspritations</CardText>
+                      <CardText>Meet Sun Tzu, as he goes into depth about his life and inspritations</CardText>
                       <Button>Play Now!</Button>
                     </Card>
                   </Col>

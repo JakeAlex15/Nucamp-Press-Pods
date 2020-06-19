@@ -35,6 +35,15 @@ export default class PodcastList extends Component {
                 <a href="/StephenKing" class="btn btn-danger">Play Now!</a>
               </div>
             </div>
+            <div class="card text-center">
+              <div class="card-header" />
+              <div class="card-body">
+                <h5 class="card-title">The Art of War Podcast</h5>
+                <img src="img/AofW.jpg" />
+                <p class="card-text">Presented By: Sun Tzu</p>
+                <a href="/AofW" class="btn btn-warning">Play Now!</a>
+              </div>
+            </div>
         </div>
         );
     }

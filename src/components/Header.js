@@ -66,7 +66,6 @@ class Header extends Component {
               <div className="row">
                 <div className="col">
                   <h1> 
-                    <img src= { logo } /> 
                     NuCamp Press Podcasts
                   </h1>
                   <h2>listen to all of your favorite authors!</h2>

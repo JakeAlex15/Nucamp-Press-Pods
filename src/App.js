@@ -9,6 +9,8 @@ import FooterComponent from './components/FooterComponent';
 import AnimalFarm from './components/AnimalFarm';
 import TheShack from './components/TheShack';
 import StephenKing from './components/StephenKing';
+import AofW from './components/AofW';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route path="/animalfarm" component= { AnimalFarm } />
         <Route path="/theshack" component= { TheShack } />
         <Route path="/stephenking" component= { StephenKing } />
+        <Route path="/aofw" component= { AofW } />
       </Switch>
       <FooterComponent />
     </React.Fragment>
