@@ -23,6 +23,7 @@ h2 {
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
+  padding-top: 60px;
 }
 .jumbotron {
   margin: 0;
@@ -62,4 +63,8 @@ h2 {
 
 .cardInfo {
   background-color: lightblue;
+}
+.button {
+  background-color:#60106b !important;
+  {border-radius: 8px !important;}
 }

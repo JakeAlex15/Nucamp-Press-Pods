@@ -34,9 +34,16 @@ const Example = (props) => {
                     businesses in insurance, construction, and more. The couple had six children, and Christianity played a large role 
                     in the family. Young wrote The Shack, his first novel, as a gift for his children.
                     </h5>
+                    <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
+                      <Button className= "text-title button">
+                        <h3>
+                          Play Episode 1!
+                        </h3>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            </div>
+              </div>
             <Nav tabs>
               <NavItem>
                 <NavLink
@@ -124,7 +131,7 @@ const Example = (props) => {
                     <Card body>
                       <CardTitle> <strong>Episode 1</strong> </CardTitle>
                       <CardText>Meet William P. Young, as he goes into depth about his life and inspritations</CardText>
-                      <Button>Play Now!</Button>
+                      <Button className="btn-primary">Play Now!</Button>
                     </Card>
                   </Col>
                   <Col sm="6">

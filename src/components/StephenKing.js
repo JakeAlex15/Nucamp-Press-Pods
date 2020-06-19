@@ -33,9 +33,16 @@ const Example = (props) => {
                     and fantasy novels. His books have sold more than 350 million copies, and many have been adapted into films, 
                     television series, miniseries, and comic books.
                     </h5>
+                    <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
+                      <Button className= "text-title button">
+                        <h3>
+                          Play Episode 1!
+                        </h3>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            </div>
+              </div>
             <Nav tabs>
               <NavItem>
                 <NavLink

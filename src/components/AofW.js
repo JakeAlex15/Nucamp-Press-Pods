@@ -33,6 +33,13 @@ const Example = (props) => {
                     period of ancient China. Sun Tzu is traditionally credited as the author of The Art of War, an influential 
                     work of military strategy that has affected both Western and East Asian philosophy and military thinking
                     </h5>
+                    <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
+                      <Button className= "text-title button">
+                        <h3>
+                          Play Episode 1!
+                        </h3>
+                      </Button>
+                      </div>
                 </div>
             </div>
             </div>

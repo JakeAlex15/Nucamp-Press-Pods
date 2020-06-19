@@ -33,9 +33,16 @@ const Example = (props) => {
                     journalist and critic. His work is characterised by lucid prose, biting social criticism, 
                     and opposition to totalitarianism.
                     </h5>
+                    <div className= "col-10 mx-auto col-md-6 my-3 text-capitalize">
+                      <Button className= "text-title button">
+                        <h3>
+                          Play Episode 1!
+                        </h3>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            </div>
+              </div>
             <Nav tabs>
               <NavItem>
                 <NavLink
